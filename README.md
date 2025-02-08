@@ -1,70 +1,26 @@
+# **Exploring Key Financial Ratios**  
 
-# Financial Ratios Analysis for Publicly Listed Companies
+### **Why This Analysis?**  
+Financial ratios serve as critical indicators of a company's **performance, profitability, and financial health**. 
+This project explores key financial metrics such as **P/E ratio, ROE, Profit Margins, and Market Capitalisation**, 
+revealing trends across industries and time.  
 
-## Overview
+By visualising these ratios, this analysis aims to **uncover insights into sector-wide strengths, financial stability, 
+and valuation trends** that impact investment decisions.
 
-This project demonstrates how to analyze key financial ratios such as Price-to-Earnings (P/E) ratio and Return on Equity (ROE) for publicly listed companies. By leveraging stock data from Yahoo Finance, the analysis provides insights into company performance, stock price trends, and key financial metrics.
+### **What This Analysis Shows**  
+📌 **P/E Ratio Trends:** Highlights market sentiment shifts and valuation changes over time.  
+📌 **Return on Equity (ROE):** Examines its relationship with profitability and debt.  
+📌 **Sector Performance:** Identifies industries with consistently strong or volatile profit margins.  
+📌 **Market Capitalisation:** Tracks trends in company valuation and investor confidence.  
+📌 **Correlation Between Ratios:** Reveals how financial metrics interact, providing deeper insight into financial structures.
 
-### Objective
-The goal of this project is to:
-- Retrieve stock price data for major companies.
-- Calculate key financial ratios, such as P/E and ROE, using the companies' financial statements.
-- Visualize stock price trends and compare financial ratios across companies.
-- Generate actionable insights from the data.
+### **Key Takeaways**  
+- **Some industries consistently outperform others**, with higher profitability and lower financial volatility.  
+- **Debt-to-equity ratios do not always correlate strongly with ROE**, challenging assumptions about leverage and returns.  
+- **Market cap fluctuations reflect industry cycles**, with some companies exhibiting strong resilience during downturns.  
+- **Financial ratios are interconnected**, and understanding these relationships helps contextualise company valuation and stability.
 
-### Key Features
-- **Data Collection:** Use the Yahoo Finance API to download historical stock data.
-- **Financial Ratios Calculation:** Calculate important ratios like P/E and ROE.
-- **Visualization:** Create interactive and informative visualizations to represent trends and comparisons.
-- **Analysis:** Provide insights based on calculated financial ratios.
-
----
-
-## Requirements
-
-Before running the Jupyter notebook, ensure you have the following libraries installed:
-
-- **Python 3.x**
-- **Libraries:**
-  - `pandas`
-  - `numpy`
-  - `matplotlib`
-  - `seaborn`
-  - `plotly`
-  - `yfinance`
-
----
-
-
-## Data Sources
-
-- **Yahoo Finance:** Stock data is retrieved using the `yfinance` library, which accesses historical price data for various companies.
-- **Financial Statements:** Mock financial data for calculating P/E and ROE ratios is included. This data can be replaced with real-world financial statements for more accurate calculations.
-
----
-
-## Visualizations
-
-This project generates the following visualizations:
-
-- **P/E Ratio:** A bar chart comparing the P/E ratios of selected companies.
-- **ROE:** A bar chart displaying the Return on Equity (ROE) for each company.
-- **Stock Price Trends:** A line plot showing the stock price movements over time for the selected companies.
-
----
-
-## Insights
-
-The financial ratios are analyzed to offer the following insights:
-
-- **P/E Ratio:** If a company's P/E ratio is high, it may indicate overvaluation; if low, it may suggest undervaluation.
-- **ROE:** A high ROE suggests strong profitability, while a low ROE may signal inefficiencies.
-
----
-
-## Acknowledgments
-
-- **Yahoo Finance API:** Data sourced from Yahoo Finance using `yfinance`.
-- **Matplotlib, Seaborn, Plotly:** Used for data visualization.
-
-
+### **Final Thoughts**  
+This project is an **exploration of financial trends**, using real-world data to gain a broader understanding of corporate performance. 
+Whether for investment insights or sector analysis, these visualisations help make sense of the vast amount of financial data available.

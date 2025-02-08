@@ -33,53 +33,8 @@ Before running the Jupyter notebook, ensure you have the following libraries ins
   - `plotly`
   - `yfinance`
 
-You can install the required libraries using the following commands:
-
-```bash
-pip install pandas numpy matplotlib seaborn plotly yfinance
-```
-
-Alternatively, you can use `conda` to install the required packages:
-
-```bash
-conda install pandas numpy matplotlib seaborn plotly
-conda install -c conda-forge yfinance
-```
-
 ---
 
-## Installation and Setup
-
-1. Clone or download this repository.
-   
-   ```bash
-   git clone https://github.com/your-username/financial-ratio-analysis.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd financial-ratio-analysis
-   ```
-
-3. Install the necessary libraries (if not already done):
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
-
-## How to Use
-
-1. Open the `financial_analysis.ipynb` Jupyter notebook.
-2. Run the cells in sequence to:
-   - Download stock data.
-   - Calculate the P/E and ROE ratios.
-   - Visualize the data using interactive plots.
-   - Generate insights based on the financial metrics.
-
----
 
 ## Data Sources
 
@@ -107,21 +62,9 @@ The financial ratios are analyzed to offer the following insights:
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## Acknowledgments
 
 - **Yahoo Finance API:** Data sourced from Yahoo Finance using `yfinance`.
 - **Matplotlib, Seaborn, Plotly:** Used for data visualization.
 
----
 
-## Future Enhancements
-
-- Add more financial ratios like Debt-to-Equity, Dividend Yield, etc.
-- Implement time series forecasting models to predict stock prices.
-- Perform a deeper analysis of sector-specific trends.

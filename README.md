@@ -9,11 +9,11 @@ By visualising these ratios, this analysis aims to **uncover insights into secto
 and valuation trends** that impact investment decisions.
 
 ### **What This Analysis Shows**  
- **P/E Ratio Trends:** Highlights market sentiment shifts and valuation changes over time.  
- **Return on Equity (ROE):** Examines its relationship with profitability and debt.  
- **Sector Performance:** Identifies industries with consistently strong or volatile profit margins.  
- **Market Capitalisation:** Tracks trends in company valuation and investor confidence.  
- **Correlation Between Ratios:** Reveals how financial metrics interact, providing deeper insight into financial structures.
+- **P/E Ratio Trends:** Highlights market sentiment shifts and valuation changes over time.  
+-  **Return on Equity (ROE):** Examines its relationship with profitability and debt.  
+- **Sector Performance:** Identifies industries with consistently strong or volatile profit margins.  
+- **Market Capitalisation:** Tracks trends in company valuation and investor confidence.  
+- **Correlation Between Ratios:** Reveals how financial metrics interact, providing deeper insight into financial structures.
 
 ### **Key Takeaways**  
 - **Some industries consistently outperform others**, with higher profitability and lower financial volatility.  
